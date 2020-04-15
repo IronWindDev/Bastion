@@ -1,1 +1,2 @@
-worker: unzip ./settings/configurations.yaml.zip ; node bastion.js
+worker: unzip ./settings/configurations.yaml.zip ;
+worker=2 : npm start
