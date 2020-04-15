@@ -1,2 +1,2 @@
-worker: unzip ./settings/configurations.yaml.zip ;
-worker=2 : npm start
+unzip : unzip ./settings/configurations.yaml.zip ;
+worker : npm start
